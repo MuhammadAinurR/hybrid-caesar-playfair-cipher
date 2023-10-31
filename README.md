@@ -5,6 +5,9 @@ This is a Python implementation of a hybrid Caesar and Playfair cipher. A hybrid
 
 The hybrid Caesar and Playfair cipher works by first encrypting the message with the Caesar cipher and then encrypting the encrypted message with the Playfair cipher. This makes the message more difficult to decrypt, as an attacker would need to break both ciphers in order to read the message.
 
+<br> learn more about caesar cipher in here https://github.com/MuhammadAinurR/caesar-cipher
+<br> learn more about playfair cipher in here https://github.com/MuhammadAinurR/playfair-cipher
+
 ## To use:
 
 To use the hybrid Caesar and Playfair cipher, simply pass the message and the keys for the Caesar cipher and Playfair cipher to the **final_enc()** function. To decrypt the message, pass the encrypted message and the keys for the Caesar cipher and Playfair cipher to the **final_dcr()** function.
